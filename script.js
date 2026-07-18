@@ -75,7 +75,8 @@ inquiryForm?.addEventListener("submit", (event) => {
   const senderEmail = data.get("email")?.toString().trim();
   const moveIn = data.get("moveIn")?.toString().trim() || "Not specified";
   const leaseLength = data.get("leaseLength")?.toString().trim() || "Flexible between 1 and 2 years";
-  const message = data.get("message")?.toString().trim();
+  const tourTimes = data.get("tourTimes")?.toString().trim();
+  const message = data.get("message")?.toString().trim() || "No additional questions.";
   const subject = "Viewing request — Bellevue Towers Unit 2008";
   const body = [
     `Hello, I’m interested in Bellevue Towers Unit 2008.`,
@@ -84,6 +85,7 @@ inquiryForm?.addEventListener("submit", (event) => {
     `Email: ${senderEmail}`,
     `Desired move-in: ${moveIn}`,
     `Preferred lease length: ${leaseLength}`,
+    `Preferred tour times: ${tourTimes}`,
     "",
     message,
     "",

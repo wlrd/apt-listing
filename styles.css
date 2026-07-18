@@ -924,6 +924,38 @@ h3 {
   text-transform: uppercase;
 }
 
+.inquiry-form label > span small {
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.inquiry-benefits {
+  display: grid;
+  gap: 0.65rem;
+  margin: 1.75rem 0 0;
+  padding: 0;
+  color: rgba(255, 253, 248, 0.76);
+  font-size: 0.78rem;
+  list-style: none;
+}
+
+.inquiry-benefits li {
+  position: relative;
+  padding-left: 1.1rem;
+}
+
+.inquiry-benefits li::before {
+  position: absolute;
+  top: 0.68em;
+  left: 0;
+  width: 0.34rem;
+  height: 0.34rem;
+  border-radius: 50%;
+  background: #e5b39f;
+  content: "";
+}
+
 .inquiry-form input,
 .inquiry-form select,
 .inquiry-form textarea {
