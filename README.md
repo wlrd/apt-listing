@@ -4,13 +4,13 @@ This folder is a complete, dependency-free website for GitHub Pages. It includes
 
 Live site: <https://wlrd.github.io/apt-listing/>
 
-The rental is available for immediate move-in with flexible one- to two-year lease terms. It includes one secure parking space. A separate storage unit is not included or advertised.
+The rental is available for immediate move-in at $3,000 per month with flexible one- to two-year lease terms. Water and one secure parking space are included. Electricity and internet are not included. Pets are allowed for an additional fee. A separate storage unit is not included or advertised.
 
 ## Contact privacy and availability
 
 The destination address is stored as an encoded numeric token in `script.js` and reconstructed in the visitor's browser only when the inquiry form is submitted. This deters basic source and mail-link scrapers, though no address used by a static website can be completely secret from a determined scraper.
 
-The page says the home is available for immediate move-in, offers flexible one- to two-year lease terms, and shares rent on inquiry.
+The page says the home is available for immediate move-in at $3,000 per month with flexible one- to two-year lease terms, and clearly explains the pet and utility policies.
 
 ## Publish with GitHub Pages
 

@@ -89,7 +89,7 @@ inquiryForm?.addEventListener("submit", (event) => {
     "",
     message,
     "",
-    "Please let me know about rent and possible viewing times.",
+    "Please let me know about possible viewing times and next steps.",
   ].join("\n");
 
   window.location.href = `mailto:${ownerEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
